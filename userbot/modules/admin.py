@@ -392,10 +392,10 @@ async def gspider(gspdr):
         )
     else:
         await man.edit(
-            r"\\**#GMuted_User**//"
-            f"\n\n**First Name:** [{user.first_name}](tg://user?id={user.id})\n"
-            f"**User ID:** `{user.id}`\n"
-            f"**Action:** `Global Muted by {self_user.first_name}`",
+            r"\\**#MAMPOS_GW_GMUTE_TOOOL**//"
+            f"\n\n**NAMA bocil:** [{user.first_name}](tg://user?id={user.id})\n"
+            f"**nomor WA:** `{user.id}`\n"
+            f"**TAK PATENI:** `Global Muted by {self_user.first_name}`",
         )
 
 
